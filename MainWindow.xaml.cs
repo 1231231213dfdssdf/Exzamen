@@ -95,7 +95,7 @@ namespace Zadanie1
                 else MessageBox.Show("Email заполнен не верно");
             }
             else MessageBox.Show("Email не заполнен");
-
+            
         }
     }
 }
