@@ -19,7 +19,6 @@
             <Label Content="Дата рождения:" HorizontalAlignment="Left" Margin="382,84,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="14"/>
             <Label Content="Страна:" HorizontalAlignment="Left" Margin="438,119,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="14"/>
             <TextBox x:Name="TextBoxEmail" HorizontalAlignment="Left" Height="23" Margin="188,54,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
-            <Label Content="Дата рождения:" HorizontalAlignment="Left" Margin="382,84,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="14"/>
             <TextBox x:Name="TextBoxParol" HorizontalAlignment="Left" Height="23" Margin="188,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
             <TextBox x:Name="TextBoxPovtorParol" HorizontalAlignment="Left" Height="23" Margin="188,137,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
             <TextBox x:Name="TextBoxName" HorizontalAlignment="Left" Height="23" Margin="188,188,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
@@ -27,8 +26,8 @@
             <TextBox x:Name="TextBoxGender" HorizontalAlignment="Left" Height="23" Margin="527,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
             <TextBox x:Name="TextBoxDateOfBirth" HorizontalAlignment="Left" Height="23" Margin="527,96,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
             <TextBox x:Name="TextBoxCountry" HorizontalAlignment="Left" Height="23" Margin="527,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" FontFamily="Comic Sans MS"/>
-            <Button x:Name="ButtonReg" Content="Регистрация" HorizontalAlignment="Left" Margin="234,297,0,0" VerticalAlignment="Top" Width="74" Click="ButtonReg_Click"/>
-            <Button x:Name="ButtonOtm" Content="Отмена" HorizontalAlignment="Left" Margin="334,297,0,0" VerticalAlignment="Top" Width="74" Click="ButtonOtm_Click"/>
+            <Button x:Name="ButtonReg" Content="Регистрация" HorizontalAlignment="Left" Margin="234,297,0,0" VerticalAlignment="Top" Width="85" Click="ButtonReg_Click" FontFamily="Comic Sans MS"/>
+            <Button x:Name="ButtonOtm" Content="Отмена" HorizontalAlignment="Left" Margin="334,297,0,0" VerticalAlignment="Top" Width="74" Click="ButtonOtm_Click" FontFamily="Comic Sans MS"/>
         </Grid>
         <Label Content="Регистрация бегуна" HorizontalAlignment="Left" Margin="327,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.816,0.115" FontFamily="Comic Sans MS" FontSize="21" Background="{x:Null}" Foreground="White"/>
     </Grid>
